@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.notificationContainer {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  width: 90%;
+  box-shadow: 1px #475569;
+}
+@media only screen and (min-width: 768px) {
+  .notificationContainer {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 600px;
+  }
+}
+.crossIcon {
+  font-size: 25px;
+  align-self: center;
+  color: #0f172a;
+}
